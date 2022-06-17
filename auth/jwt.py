@@ -3,8 +3,8 @@ from jose import jwt, JWTError
 from datetime import datetime, timedelta
 from fastapi import status, HTTPException
 
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 class JSONWebToken:
 
